@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.indigo,
+      backgroundColor: Colors.blueAccent,
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
