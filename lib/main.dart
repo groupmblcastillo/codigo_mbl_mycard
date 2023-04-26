@@ -100,27 +100,20 @@ class HomePage extends StatelessWidget {
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
-                Icon(
-                  Icons.facebook,
-                  color: Colors.white,
-                  size: 60,
+              children: [
+                Image.asset(
+                  'assets/images/facebook.png',
+                  height: 32,
                 ),
-                SizedBox(
-                  width: 20,
+                const SizedBox(width: 8),
+                Image.asset(
+                  'assets/images/instagram.png',
+                  height: 32,
                 ),
-                Icon(
-                  Icons.email,
-                  color: Colors.white,
-                  size: 60,
-                ),
-                SizedBox(
-                  width: 20,
-                ),
-                Icon(
-                  Icons.home,
-                  color: Colors.white,
-                  size: 60,
+                const SizedBox(width: 8),
+                Image.asset(
+                  'assets/images/twitter.png',
+                  height: 32,
                 ),
               ],
             ),
